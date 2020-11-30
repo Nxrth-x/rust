@@ -1,5 +1,14 @@
-mod print;
+// println
+// mod print;
+
+// variables
+// mod vars;
+
+// datatypes
+mod types;
 
 fn main() {
-    print::run();
+  // print::run();
+  // vars::run();
+  types::run();
 }

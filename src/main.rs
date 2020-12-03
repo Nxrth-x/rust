@@ -5,10 +5,14 @@
 // mod vars;
 
 // datatypes
-mod types;
+//mod types;
+
+// string
+mod strings;
 
 fn main() {
   // print::run();
   // vars::run();
-  types::run();
+  //types::run();
+	strings::run();
 }

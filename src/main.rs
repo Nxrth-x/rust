@@ -1,18 +1,26 @@
 // println
-// mod print;
+mod print;
 
 // variables
-// mod vars;
+mod vars;
 
 // datatypes
-//mod types;
+mod types;
 
 // string
 mod strings;
 
+// tuples
+mod tuple;
+
+// arrays
+mod arrays;
+
 fn main() {
-  // print::run();
-  // vars::run();
-  //types::run();
-	strings::run();
+  print::run();
+  vars::run();
+  types::run();
+  strings::run();
+  tuple::run();
+  arrays::run();
 }

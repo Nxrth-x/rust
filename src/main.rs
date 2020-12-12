@@ -16,6 +16,9 @@ mod tuple;
 // arrays
 mod arrays;
 
+// vectors
+mod vectors;
+
 fn main() {
   print::run();
   vars::run();
@@ -23,4 +26,5 @@ fn main() {
   strings::run();
   tuple::run();
   arrays::run();
+  vectors::run();
 }

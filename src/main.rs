@@ -1,50 +1,58 @@
-// println
-mod print;
+// // println
+// mod print;
 
-// variables
-mod vars;
+// // variables
+// mod vars;
 
-// datatypes
-mod types;
+// // datatypes
+// mod types;
 
-// string
-mod strings;
+// // string
+// mod strings;
 
-// tuples
-mod tuple;
+// // tuples
+// mod tuple;
 
-// arrays
-mod arrays;
+// // arrays
+// mod arrays;
 
-// vectors
-mod vectors;
+// // vectors
+// mod vectors;
 
-// conditionals
-mod conditionals;
+// // conditionals
+// mod conditionals;
 
-// loops
-mod loops;
+// // loops
+// mod loops;
 
-// functions
-mod functions;
+// // functions
+// mod functions;
 
-// pointers and references
-mod pointer_ref;
+// // pointers and references
+// mod pointer_ref;
 
-// structs
-mod structs;
+// // structs
+// mod structs;
+
+// // enums
+// mod enums;
+
+// cli
+mod cli;
 
 fn main() {
-  print::run();
-  vars::run();
-  types::run();
-  strings::run();
-  tuple::run();
-  arrays::run();
-  vectors::run();
-  conditionals::run();
-  loops::run();
-  functions::run();
-  pointer_ref::run();
-  structs::run();
+  // print::run();
+  // vars::run();
+  // types::run();
+  // strings::run();
+  // tuple::run();
+  // arrays::run();
+  // vectors::run();
+  // conditionals::run();
+  // loops::run();
+  // functions::run();
+  // pointer_ref::run();
+  // structs::run();
+  // enums::run();
+  cli::run();
 }

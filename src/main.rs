@@ -22,6 +22,18 @@ mod vectors;
 // conditionals
 mod conditionals;
 
+// loops
+mod loops;
+
+// functions
+mod functions;
+
+// pointers and references
+mod pointer_ref;
+
+// structs
+mod structs;
+
 fn main() {
   print::run();
   vars::run();
@@ -31,4 +43,8 @@ fn main() {
   arrays::run();
   vectors::run();
   conditionals::run();
+  loops::run();
+  functions::run();
+  pointer_ref::run();
+  structs::run();
 }

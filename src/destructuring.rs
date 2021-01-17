@@ -6,15 +6,6 @@ struct Cat {
 }
 
 impl Cat {
-    fn dummy() -> Cat {
-        Cat {
-            name: "".to_string(),
-            age: 0,
-            furry: false,
-            lazy: false
-        }
-    }
-
     fn new(name: &str, age: u8, furry: bool, lazy: bool) -> Cat {
         Cat {
             name: name.to_string(),
@@ -44,9 +35,9 @@ impl Cat {
 }
 
 fn main() {
-    let mut cats: [Cat; 2] = [Cat::dummy(), Cat::dummy()];
-    cats[0] = Cat::new("Safira", 2, true, false);
-    cats[1] = Cat::new("Tom", 2, false, true);
+    let mut cats: Vec<Cat> = vec![];
+    cats.push(Cat::new("Safira", 2, true, false));
+    cats.push(Cat::new("Tom", 2, false, true));
     
     println!("{}", cats[0].meow());
     println!("{}", cats[1].is_lazy());
